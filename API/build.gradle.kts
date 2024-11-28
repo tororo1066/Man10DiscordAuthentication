@@ -20,7 +20,10 @@ java {
 
 publishing {
     publications {
-        create<MavenPublication>("mavenJava") {
+        create<MavenPublication>("plugin") {
+            groupId = project.group.toString()
+            artifactId = project.name.lowercase()
+            version = System.getenv("VERSION")
             from(components["java"])
         }
     }
