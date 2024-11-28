@@ -12,6 +12,10 @@ on:
     paths-ignore:
       - 'README.md'
 
+env:
+  GITHUB_USERNAME: ${{ github.actor }}
+  GITHUB_TOKEN: ${{ secrets.TOKEN }}
+
 jobs:
   build:
 
