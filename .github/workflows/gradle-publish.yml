@@ -13,12 +13,11 @@ on:
       - 'README.md'
 
 env:
-  GITHUB_USERNAME: ${{ github.actor }}
+  GITHUB_USERNAME: ${{ secrets.USERNAME }}
   GITHUB_TOKEN: ${{ secrets.TOKEN }}
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
     permissions:
       contents: read

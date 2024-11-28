@@ -29,7 +29,6 @@ publishing {
     }
     repositories {
         maven {
-            name = "GitHubPackages"
             url = uri("https://maven.pkg.github.com/tororo1066/Man10DiscordAuthentication")
             credentials {
                 username = System.getenv("GITHUB_USERNAME")
