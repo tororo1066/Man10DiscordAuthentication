@@ -1,0 +1,11 @@
+jda:
+  invalid_config: "§cFailed to load the configuration file"
+  invalid_guild: "§cServer not found"
+auth:
+  reloading: "§cPlease wait a moment before trying again"
+  send_code: "§aAuthentication code for {0}: §c{1}§6 (Click to copy)"
+  send_code_hover: "§6Click to copy"
+reload:
+  already_reloading: "§cCurrently reloading"
+  success: "§aReload completed successfully"
+  failed: "§cReload failed"

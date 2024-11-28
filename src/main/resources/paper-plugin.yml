@@ -1,5 +1,5 @@
-name: PluginName
-main: MainClass
+name: Man10DiscordAuthentication
+main: tororo1066.man10discordauthentication.Man10DiscordAuthentication
 version: '1.0'
 api-version: '1.19'
-loader: tororo1066.changeme.DependencyLoader
+loader: tororo1066.man10discordauthentication.DependencyLoader

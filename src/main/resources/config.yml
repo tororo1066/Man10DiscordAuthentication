@@ -1,0 +1,4 @@
+defaultLanguage: ja_jp
+prefix: "§c[§bMan10DiscordAuthentication§c]§r"
+database:
+  type: sqlite

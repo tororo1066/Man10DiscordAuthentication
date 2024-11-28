@@ -1,0 +1,11 @@
+jda:
+  invalid_config: "§c設定ファイルの読み込みに失敗しました"
+  invalid_guild: "§cサーバーが見つかりません"
+auth:
+  reloading: "§c少し待ってから再試行してください"
+  send_code: "§a{0}の認証コード: §c{1}§6(クリックでコピー)"
+  send_code_hover: "§6クリックでコピー"
+reload:
+  already_reloading: "§c現在リロード中です"
+  success: "§aリロードが完了しました"
+  failed: "§cリロードに失敗しました"

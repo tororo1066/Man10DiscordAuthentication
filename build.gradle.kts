@@ -4,7 +4,7 @@ import dev.s7a.gradle.minecraft.server.tasks.LaunchMinecraftServerTask.JarUrl
 import groovy.lang.Closure
 
 plugins {
-    kotlin("jvm") version "1.7.20"
+    kotlin("jvm") version "1.9.0"
     id("com.github.ben-manes.versions") version "0.41.0"
     id("dev.s7a.gradle.minecraft.server") version "1.2.0"
     id("com.github.johnrengelman.shadow") version "7.1.2"
@@ -40,6 +40,11 @@ dependencies {
     compileOnly("tororo1066:base:$apiVersion")
     implementation("tororo1066:tororopluginapi:$apiVersion")
     compileOnly("com.mojang:brigadier:1.0.18")
+
+    implementation(project(":API"))
+
+    compileOnly("net.dv8tion:JDA:5.2.1")
+    implementation("org.mongodb:mongodb-driver-sync:4.11.1")
 }
 
 tasks.withType<ShadowJar> {
