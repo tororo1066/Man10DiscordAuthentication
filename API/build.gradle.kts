@@ -22,7 +22,7 @@ publishing {
     publications {
         create<MavenPublication>("plugin") {
             groupId = project.group.toString()
-            artifactId = project.name.lowercase()
+            artifactId = "man10-discord-authentication"
             version = System.getenv("VERSION")
             from(components["java"])
         }
