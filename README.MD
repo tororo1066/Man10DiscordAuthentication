@@ -11,7 +11,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly 'tororo1066.man10-discord-authentication:<VERSION>'
+    compileOnly 'tororo1066:man10-discord-authentication:<VERSION>'
 }
 ```
 
